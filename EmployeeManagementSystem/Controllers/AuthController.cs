@@ -67,8 +67,7 @@ namespace EmployeeManagement.API.Controllers
                         NationalId = model.NationalId,
                         Age = model.Age,
                         UserId = user.Id,
-                        SignatureUrl = model.SignatureUrl
-
+  
                     };
                     await _unitOfWork.Employees.AddAsync(employee);
                     await _unitOfWork.CompleteAsync();

@@ -21,4 +21,6 @@ public class RegisterModel
     public string NationalId { get; set; }
     public int Age { get; set; }
 
+
+
 }
